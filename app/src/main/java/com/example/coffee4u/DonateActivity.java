@@ -10,22 +10,17 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ArrayAdapter;
-import android.widget.CalendarView;
 import android.widget.DatePicker;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 import java.util.Calendar;
 
 public class DonateActivity extends AppCompatActivity {
-
     private static final String TAG = "DonateActivity";
 
     private TextView nDisplayDate;
     private DatePickerDialog.OnDateSetListener nDateSetListener;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
