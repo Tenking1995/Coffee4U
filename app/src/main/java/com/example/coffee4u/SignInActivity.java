@@ -38,6 +38,9 @@ public class SignInActivity extends AppCompatActivity {
     private static final String TAG = "FACELOG";
 
     private FirebaseAuth mAuth;
+    //initialize button to navigate to sign up activity
+
+    private Button signUpButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +53,15 @@ public class SignInActivity extends AppCompatActivity {
 
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
+
+        //initializ signUp button
+        signUpButton = findViewById(R.id.btn_signup_account);
+        signUpButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openSignUpActivity();
+            }
+        });
 
 
         // Initialize Facebook Login button
@@ -75,6 +87,14 @@ public class SignInActivity extends AppCompatActivity {
                 // ...
             }
         });
+
+
+    };
+
+    //signup Activity method
+    public void openSignUpActivity() {
+        Intent intent = new Intent(this,  SignUpActivity.class);
+        startActivity(intent);
     }
 
     @Override
