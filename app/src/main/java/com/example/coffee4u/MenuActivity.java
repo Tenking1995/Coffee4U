@@ -23,4 +23,10 @@ public class MenuActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void OnClick1(View view) {
+        Intent intent = new Intent(MenuActivity.this, Contactus.class);
+        startActivity(intent);
+        finish();
+    }
 }
