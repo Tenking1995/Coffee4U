@@ -26,7 +26,7 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void OnClick1(View view) {
-        Intent intent = new Intent(MenuActivity.this, Contactus.class);
+        Intent intent = new Intent(MenuActivity.this, ContactActivity.class);
         startActivity(intent);
         finish();
     }
