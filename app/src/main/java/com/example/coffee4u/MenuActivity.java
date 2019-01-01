@@ -16,6 +16,7 @@ public class MenuActivity extends AppCompatActivity {
         Window g = getWindow();
         g.setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION, WindowManager.LayoutParams.TYPE_STATUS_BAR);
         setContentView(R.layout.activity_menu);
+
     }
 
     public void OnClick(View view) {
