@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DonateActivity"></activity>
+        <activity android:name=".ContactActivity"></activity>
+        <activity android:name=".DonateActivity" />
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".SignInActivity" />
@@ -43,6 +44,7 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
+        <activity android:name=".SignUpActivity" />
     </application>
 
 </manifest>
