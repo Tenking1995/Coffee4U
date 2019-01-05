@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_signin"
-    tools:context=".MenuActivity">
+    tools:context=".GiftActivity">
 
     <TextView
         android:id="@+id/label_available_gift"
