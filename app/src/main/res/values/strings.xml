@@ -23,6 +23,7 @@
     <string name="current_point_label">Your current points is:  </string>
     <string name="confirm_label">Confirm</string>
     <string name="content_description">gift.png</string>
+    <string name="current_point">0</string>
     <string-array name="coffeeshopname">
         <item>Mugs Coffee</item>
         <item>No Doze Cafe</item>

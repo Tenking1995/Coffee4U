@@ -40,4 +40,9 @@ public class MenuActivity extends AppCompatActivity {
         Intent intent = new Intent(MenuActivity.this, ContactActivity.class);
         startActivity(intent);
     }
+
+    public void OnClick2(View view) {
+        Intent intent = new Intent(MenuActivity.this, GiftActivity.class);
+        startActivity(intent);
+    }
 }
