@@ -37,13 +37,13 @@ public class MenuActivity extends AppCompatActivity {
         logout = findViewById(R.id.logout_layout);
 
         //set intent for each linear layout
-//        coffeeShop.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MenuActivity.this, DonateActivity.class);
-//                startActivity(intent);
-//            }
-//        });
+        coffeeShop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuActivity.this, ShopActivity.class);
+                startActivity(intent);
+            }
+        });
         donate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -65,20 +65,5 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
-
-    public void OnClick(View view) {
-        Intent intent = new Intent(MenuActivity.this, DonateActivity.class);
-        startActivity(intent);
-    }
-
-    public void OnClick1(View view) {
-        Intent intent = new Intent(MenuActivity.this, ContactActivity.class);
-        startActivity(intent);
-    }
-
-    public void OnClick2(View view) {
-        Intent intent = new Intent(MenuActivity.this, GiftActivity.class);
-        startActivity(intent);
     }
 }
