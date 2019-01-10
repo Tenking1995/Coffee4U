@@ -24,6 +24,12 @@
     <string name="confirm_label">Confirm</string>
     <string name="content_description">gift.png</string>
     <string name="current_point">0</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register_email">Register Email</string>
+    <string name="already_have_an_account">Already Have An Account?</string>
     <string-array name="coffeeshopname">
         <item>Mugs Coffee</item>
         <item>No Doze Cafe</item>

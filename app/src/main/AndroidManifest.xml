@@ -46,7 +46,8 @@
         </activity>
         <activity android:name=".SignUpActivity" />
         <activity android:name=".GiftActivity" />
-        <activity android:name=".ShopActivity"></activity>
+        <activity android:name=".ShopActivity" />
+        <activity android:name=".SignupEmailActivity"></activity>
     </application>
 
 </manifest>
